@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1508,6 +1508,11 @@ Power to the Board .100" EXTreme Ten60Power 60 Amp Signal/Power Combo Socket Str
 <wire x1="246.38" y1="101.6" x2="246.38" y2="91.44" width="0.1524" layer="91"/>
 <label x="246.38" y="91.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="10"/>
+<wire x1="159.004" y1="217.17" x2="165.354" y2="217.17" width="0.1524" layer="91"/>
+<label x="165.1" y="217.17" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="3V3" class="0">
 <segment>
@@ -1515,29 +1520,49 @@ Power to the Board .100" EXTreme Ten60Power 60 Amp Signal/Power Combo Socket Str
 <wire x1="50.8" y1="53.34" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
 <label x="43.18" y="53.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="2"/>
+<wire x1="159.004" y1="227.33" x2="165.1" y2="227.33" width="0.1524" layer="91"/>
+<label x="165.354" y="227.33" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="4"/>
+<wire x1="159.004" y1="224.79" x2="165.1" y2="224.79" width="0.1524" layer="91"/>
+<label x="165.354" y="224.79" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="1"/>
+<wire x1="136.144" y1="227.33" x2="129.794" y2="227.33" width="0.1524" layer="91"/>
+<label x="129.54" y="227.33" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="3"/>
+<wire x1="136.144" y1="224.79" x2="129.794" y2="224.79" width="0.1524" layer="91"/>
+<label x="129.54" y="224.79" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="SPI1" class="0">
+<net name="SPI_MOSI" class="0">
 <segment>
 <pinref part="J3" gate="A" pin="13"/>
 <wire x1="50.8" y1="50.8" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
-<label x="43.18" y="50.8" size="1.778" layer="95"/>
+<label x="43.18" y="50.8" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="SPI2" class="0">
+<net name="SPI_MISO" class="0">
 <segment>
 <pinref part="J3" gate="A" pin="15"/>
 <wire x1="50.8" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
-<label x="43.18" y="48.26" size="1.778" layer="95"/>
+<label x="43.18" y="48.26" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="SPI3" class="0">
+<net name="SPI_SCLK" class="0">
 <segment>
 <pinref part="J3" gate="A" pin="14"/>
 <wire x1="81.28" y1="50.8" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
 <label x="91.44" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SPI4" class="0">
+<net name="SPI_SS/CS" class="0">
 <segment>
 <pinref part="J3" gate="A" pin="16"/>
 <wire x1="81.28" y1="48.26" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
@@ -1603,6 +1628,52 @@ Power to the Board .100" EXTreme Ten60Power 60 Amp Signal/Power Combo Socket Str
 <segment>
 <pinref part="U1" gate="G$1" pin="IN7"/>
 <wire x1="231.14" y1="111.76" x2="220.98" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="NRST" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="6"/>
+<wire x1="159.004" y1="222.25" x2="165.354" y2="222.25" width="0.1524" layer="91"/>
+<label x="165.1" y="222.25" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="8"/>
+<wire x1="159.004" y1="219.71" x2="165.354" y2="219.71" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ESC_ID" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="12"/>
+<wire x1="159.004" y1="214.63" x2="165.354" y2="214.63" width="0.1524" layer="91"/>
+<label x="165.1" y="214.63" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="5"/>
+<wire x1="136.144" y1="222.25" x2="129.794" y2="222.25" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="7"/>
+<wire x1="136.144" y1="219.71" x2="129.794" y2="219.71" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SWDIO" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="9"/>
+<wire x1="136.144" y1="217.17" x2="129.794" y2="217.17" width="0.1524" layer="91"/>
+<label x="129.54" y="217.17" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="SWCLK" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="11"/>
+<wire x1="136.144" y1="214.63" x2="129.794" y2="214.63" width="0.1524" layer="91"/>
+<label x="129.54" y="214.63" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
