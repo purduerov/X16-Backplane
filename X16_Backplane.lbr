@@ -786,11 +786,11 @@
 <pin name="P02" x="-12.7" y="22.86" length="middle" direction="pwr"/>
 <pin name="P03" x="-12.7" y="20.32" length="middle" direction="pwr"/>
 <pin name="P04" x="-12.7" y="17.78" length="middle" direction="pwr"/>
-<pin name="P10" x="12.7" y="25.4" length="middle" direction="pwr" rot="R180"/>
-<pin name="P09" x="12.7" y="22.86" length="middle" direction="pwr" rot="R180"/>
-<pin name="P08" x="12.7" y="20.32" length="middle" direction="pwr" rot="R180"/>
-<pin name="P07" x="12.7" y="17.78" length="middle" direction="pwr" rot="R180"/>
-<pin name="P05" x="-12.7" y="12.7" length="middle" direction="pas"/>
+<pin name="P08" x="12.7" y="25.4" length="middle" direction="pwr" rot="R180"/>
+<pin name="P07" x="12.7" y="22.86" length="middle" direction="pwr" rot="R180"/>
+<pin name="P06" x="12.7" y="20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="P05" x="12.7" y="17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="01" x="-12.7" y="12.7" length="middle" direction="pas"/>
 <pin name="02" x="-12.7" y="10.16" length="middle" direction="pas"/>
 <pin name="5V" x="-12.7" y="7.62" length="middle" direction="pas"/>
 <pin name="3V3" x="-12.7" y="5.08" length="middle" direction="pas"/>
@@ -806,7 +806,7 @@
 <pin name="14" x="-12.7" y="-22.86" length="middle" direction="pas"/>
 <pin name="15" x="-12.7" y="-25.4" length="middle" direction="pas"/>
 <pin name="16" x="-12.7" y="-27.94" length="middle" direction="pas"/>
-<pin name="P06" x="12.7" y="12.7" length="middle" direction="pas" rot="R180"/>
+<pin name="17" x="12.7" y="12.7" length="middle" direction="pas" rot="R180"/>
 <pin name="18" x="12.7" y="10.16" length="middle" direction="pas" rot="R180"/>
 <pin name="DATA" x="12.7" y="7.62" length="middle" direction="pas" rot="R180"/>
 <pin name="C2_1" x="12.7" y="5.08" length="middle" direction="pas" rot="R180"/>
@@ -949,6 +949,7 @@ Power to the Board .100" EXTreme Ten60Power 60 Amp Signal/Power Combo Socket Str
 <devices>
 <device name="" package="SAMTEC_ET60S-D04-3-08-D04-X-R1-S">
 <connects>
+<connect gate="G$1" pin="01" pad="01"/>
 <connect gate="G$1" pin="02" pad="02"/>
 <connect gate="G$1" pin="07" pad="07"/>
 <connect gate="G$1" pin="08" pad="08"/>
@@ -961,6 +962,7 @@ Power to the Board .100" EXTreme Ten60Power 60 Amp Signal/Power Combo Socket Str
 <connect gate="G$1" pin="14" pad="14"/>
 <connect gate="G$1" pin="15" pad="15"/>
 <connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
 <connect gate="G$1" pin="18" pad="18"/>
 <connect gate="G$1" pin="3V3" pad="04"/>
 <connect gate="G$1" pin="5V" pad="03"/>
@@ -975,12 +977,10 @@ Power to the Board .100" EXTreme Ten60Power 60 Amp Signal/Power Combo Socket Str
 <connect gate="G$1" pin="P02" pad="P02_1 P02_2 P02_3 P02_4 P02_5 P02_6 P02_7 P02_8 P02_9 P02_10"/>
 <connect gate="G$1" pin="P03" pad="P03_1 P03_2 P03_3 P03_4 P03_5 P03_6 P03_7 P03_8 P03_9 P03_10"/>
 <connect gate="G$1" pin="P04" pad="P04_1 P04_2 P04_3 P04_4 P04_5 P04_6 P04_7 P04_8 P04_9 P04_10"/>
-<connect gate="G$1" pin="P05" pad="01"/>
-<connect gate="G$1" pin="P06" pad="17"/>
-<connect gate="G$1" pin="P07" pad="P05_1 P05_2 P05_3 P05_4 P05_5 P05_6 P05_7 P05_8 P05_9 P05_10"/>
-<connect gate="G$1" pin="P08" pad="P06_1 P06_2 P06_3 P06_4 P06_5 P06_6 P06_7 P06_8 P06_9 P06_10"/>
-<connect gate="G$1" pin="P09" pad="P07_1 P07_2 P07_3 P07_4 P07_5 P07_6 P07_7 P07_8 P07_9 P07_10"/>
-<connect gate="G$1" pin="P10" pad="P08_1 P08_2 P08_3 P08_4 P08_5 P08_6 P08_7 P08_8 P08_9 P08_10"/>
+<connect gate="G$1" pin="P05" pad="P05_1 P05_2 P05_3 P05_4 P05_5 P05_6 P05_7 P05_8 P05_9 P05_10"/>
+<connect gate="G$1" pin="P06" pad="P06_1 P06_2 P06_3 P06_4 P06_5 P06_6 P06_7 P06_8 P06_9 P06_10"/>
+<connect gate="G$1" pin="P07" pad="P07_1 P07_2 P07_3 P07_4 P07_5 P07_6 P07_7 P07_8 P07_9 P07_10"/>
+<connect gate="G$1" pin="P08" pad="P08_1 P08_2 P08_3 P08_4 P08_5 P08_6 P08_7 P08_8 P08_9 P08_10"/>
 </connects>
 <technologies>
 <technology name="">
