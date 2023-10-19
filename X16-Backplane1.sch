@@ -1089,6 +1089,46 @@ DIN A3, landscape with location and doc. field</description>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
+<package name="SAMTEC_CLT-110-01-F-D">
+<text x="-9.905" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-9.905" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-10" y1="2.0005" x2="-10" y2="-2.0005" width="0.1" layer="51"/>
+<wire x1="-10" y1="-2.0005" x2="10" y2="-2.0005" width="0.1" layer="51"/>
+<wire x1="10" y1="-2.0005" x2="10" y2="2.0005" width="0.1" layer="51"/>
+<wire x1="10" y1="2.0005" x2="-10" y2="2.0005" width="0.1" layer="51"/>
+<wire x1="-10" y1="-2.0005" x2="-9.87" y2="-2.0005" width="0.2" layer="21"/>
+<wire x1="9.87" y1="-2.0005" x2="10" y2="-2.0005" width="0.2" layer="21"/>
+<wire x1="-9.87" y1="2.0005" x2="-10" y2="2.0005" width="0.2" layer="21"/>
+<wire x1="10" y1="2.0005" x2="9.87" y2="2.0005" width="0.2" layer="21"/>
+<wire x1="-10" y1="2.0005" x2="-10" y2="-2.0005" width="0.2" layer="21"/>
+<wire x1="10" y1="-2.0005" x2="10" y2="2.0005" width="0.2" layer="21"/>
+<wire x1="-10.25" y1="2.28" x2="-10.25" y2="-2.28" width="0.05" layer="39"/>
+<wire x1="-10.25" y1="-2.28" x2="10.25" y2="-2.28" width="0.05" layer="39"/>
+<wire x1="10.25" y1="-2.28" x2="10.25" y2="2.28" width="0.05" layer="39"/>
+<wire x1="10.25" y1="2.28" x2="-10.25" y2="2.28" width="0.05" layer="39"/>
+<circle x="10.65" y="-1.51" radius="0.1" width="0.2" layer="21"/>
+<circle x="10.65" y="-1.51" radius="0.1" width="0.2" layer="51"/>
+<pad name="01" x="9" y="-1.51" drill="0.64" diameter="1.04" shape="square"/>
+<pad name="02" x="9" y="1.51" drill="0.64" diameter="1.04"/>
+<pad name="03" x="7" y="-1.51" drill="0.64" diameter="1.04"/>
+<pad name="04" x="7" y="1.51" drill="0.64" diameter="1.04"/>
+<pad name="05" x="5" y="-1.51" drill="0.64" diameter="1.04"/>
+<pad name="06" x="5" y="1.51" drill="0.64" diameter="1.04"/>
+<pad name="07" x="3" y="-1.51" drill="0.64" diameter="1.04"/>
+<pad name="08" x="3" y="1.51" drill="0.64" diameter="1.04"/>
+<pad name="09" x="1" y="-1.51" drill="0.64" diameter="1.04"/>
+<pad name="10" x="1" y="1.51" drill="0.64" diameter="1.04"/>
+<pad name="11" x="-1" y="-1.51" drill="0.64" diameter="1.04"/>
+<pad name="12" x="-1" y="1.51" drill="0.64" diameter="1.04"/>
+<pad name="13" x="-3" y="-1.51" drill="0.64" diameter="1.04"/>
+<pad name="14" x="-3" y="1.51" drill="0.64" diameter="1.04"/>
+<pad name="15" x="-5" y="-1.51" drill="0.64" diameter="1.04"/>
+<pad name="16" x="-5" y="1.51" drill="0.64" diameter="1.04"/>
+<pad name="17" x="-7" y="-1.51" drill="0.64" diameter="1.04"/>
+<pad name="18" x="-7" y="1.51" drill="0.64" diameter="1.04"/>
+<pad name="19" x="-9" y="-1.51" drill="0.64" diameter="1.04"/>
+<pad name="20" x="-9" y="1.51" drill="0.64" diameter="1.04"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="PXC-8-RA-1778683" urn="urn:adsk.eagle:package:25224885/2" type="model">
@@ -1246,6 +1286,34 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.2032" layer="94"/>
 <text x="-5.1562" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
 <text x="-4.0894" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+</symbol>
+<symbol name="CLT-110-01-F-D">
+<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="15.24" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<text x="-8.12" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="01" x="-12.7" y="12.7" length="middle" direction="pas"/>
+<pin name="02" x="12.7" y="12.7" length="middle" direction="pas" rot="R180"/>
+<pin name="03" x="-12.7" y="10.16" length="middle" direction="pas"/>
+<pin name="04" x="12.7" y="10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="05" x="-12.7" y="7.62" length="middle" direction="pas"/>
+<pin name="06" x="12.7" y="7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="07" x="-12.7" y="5.08" length="middle" direction="pas"/>
+<pin name="08" x="12.7" y="5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="09" x="-12.7" y="2.54" length="middle" direction="pas"/>
+<pin name="10" x="12.7" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="11" x="-12.7" y="0" length="middle" direction="pas"/>
+<pin name="12" x="12.7" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="13" x="-12.7" y="-2.54" length="middle" direction="pas"/>
+<pin name="14" x="12.7" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="15" x="-12.7" y="-5.08" length="middle" direction="pas"/>
+<pin name="16" x="12.7" y="-5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="17" x="-12.7" y="-7.62" length="middle" direction="pas"/>
+<pin name="18" x="12.7" y="-7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="19" x="-12.7" y="-10.16" length="middle" direction="pas"/>
+<pin name="20" x="12.7" y="-10.16" length="middle" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1507,6 +1575,42 @@ Power to the Board .100" EXTreme Ten60Power 60 Amp Signal/Power Combo Socket Str
 <attribute name="COPYRIGHT" value="Copyright (C) 2023 Ultra Librarian. All rights reserved." constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="EEE-FT1E561UP" constant="no"/>
 <attribute name="MFR_NAME" value="Panasonic" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CLT-110-01-F-D" prefix="J">
+<gates>
+<gate name="G$1" symbol="CLT-110-01-F-D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SAMTEC_CLT-110-01-F-D">
+<connects>
+<connect gate="G$1" pin="01" pad="01"/>
+<connect gate="G$1" pin="02" pad="02"/>
+<connect gate="G$1" pin="03" pad="03"/>
+<connect gate="G$1" pin="04" pad="04"/>
+<connect gate="G$1" pin="05" pad="05"/>
+<connect gate="G$1" pin="06" pad="06"/>
+<connect gate="G$1" pin="07" pad="07"/>
+<connect gate="G$1" pin="08" pad="08"/>
+<connect gate="G$1" pin="09" pad="09"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="20" pad="20"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="SAMTEC"/>
 </technology>
 </technologies>
 </device>
@@ -2226,7 +2330,6 @@ Used as a test point connection for pogo pins or other debugging tools.
 <part name="C3" library="X16_Backplane" deviceset="EEE-FT1E561UP" device="">
 <attribute name="C3" value="560uF"/>
 </part>
-<part name="J5" library="X16_Backplane" deviceset="SAMTEC-HTST-110-04-X-D-RA" device="J"/>
 <part name="J3" library="X16_Backplane" deviceset="SAMTEC-HTST-110-04-X-D-RA" device="J"/>
 <part name="TP1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3" package3d_urn="urn:adsk.eagle:package:38286/2"/>
 <part name="TP2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3" package3d_urn="urn:adsk.eagle:package:38286/2"/>
@@ -2235,6 +2338,7 @@ Used as a test point connection for pogo pins or other debugging tools.
 <part name="TP5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3" package3d_urn="urn:adsk.eagle:package:38286/2"/>
 <part name="TP6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3" package3d_urn="urn:adsk.eagle:package:38286/2"/>
 <part name="TP7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="TEST-POINT" device="3" package3d_urn="urn:adsk.eagle:package:38286/2"/>
+<part name="J4" library="X16_Backplane" deviceset="CLT-110-01-F-D" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2270,13 +2374,13 @@ Used as a test point connection for pogo pins or other debugging tools.
 <attribute name="VALUE" x="292.1" y="41.91" size="1.778" layer="96" align="top-left"/>
 </instance>
 <instance part="U2" gate="G$1" x="109.22" y="60.96" smashed="yes"/>
-<instance part="J5" gate="A" x="266.7" y="195.58" smashed="yes">
-<attribute name="NAME" x="266.7" y="200.66" size="2.54" layer="95"/>
-<attribute name="VALUE" x="266.7" y="162.56" size="2.286" layer="96"/>
-</instance>
 <instance part="J3" gate="A" x="200.66" y="91.44" smashed="yes">
 <attribute name="NAME" x="200.66" y="96.52" size="2.54" layer="95"/>
 <attribute name="VALUE" x="200.66" y="58.42" size="2.286" layer="96"/>
+</instance>
+<instance part="J4" gate="G$1" x="279.4" y="190.5" smashed="yes">
+<attribute name="NAME" x="271.28" y="205.74" size="1.778" layer="95"/>
+<attribute name="VALUE" x="271.78" y="175.26" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -2316,9 +2420,9 @@ Used as a test point connection for pogo pins or other debugging tools.
 <label x="88.9" y="187.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J5" gate="A" pin="13"/>
-<wire x1="261.62" y1="180.34" x2="254" y2="180.34" width="0.1524" layer="91"/>
-<label x="254" y="180.34" size="1.778" layer="95" rot="R180"/>
+<pinref part="J4" gate="G$1" pin="13"/>
+<wire x1="266.7" y1="187.96" x2="259.08" y2="187.96" width="0.1524" layer="91"/>
+<label x="259.08" y="187.96" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PWMA1" class="0">
@@ -2328,9 +2432,9 @@ Used as a test point connection for pogo pins or other debugging tools.
 <label x="88.9" y="185.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J5" gate="A" pin="15"/>
-<wire x1="261.62" y1="177.8" x2="254" y2="177.8" width="0.1524" layer="91"/>
-<label x="254" y="177.8" size="1.778" layer="95" rot="R180"/>
+<pinref part="J4" gate="G$1" pin="15"/>
+<wire x1="266.7" y1="185.42" x2="259.08" y2="185.42" width="0.1524" layer="91"/>
+<label x="259.08" y="185.42" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PWMA2" class="0">
@@ -2340,9 +2444,9 @@ Used as a test point connection for pogo pins or other debugging tools.
 <label x="88.9" y="182.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J5" gate="A" pin="17"/>
-<wire x1="261.62" y1="175.26" x2="254" y2="175.26" width="0.1524" layer="91"/>
-<label x="254" y="175.26" size="1.778" layer="95" rot="R180"/>
+<pinref part="J4" gate="G$1" pin="17"/>
+<wire x1="266.7" y1="182.88" x2="259.08" y2="182.88" width="0.1524" layer="91"/>
+<label x="259.08" y="182.88" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PWMA3" class="0">
@@ -2352,9 +2456,9 @@ Used as a test point connection for pogo pins or other debugging tools.
 <label x="88.9" y="180.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J5" gate="A" pin="19"/>
-<wire x1="261.62" y1="172.72" x2="254" y2="172.72" width="0.1524" layer="91"/>
-<label x="254" y="172.72" size="1.778" layer="95" rot="R180"/>
+<pinref part="J4" gate="G$1" pin="19"/>
+<wire x1="266.7" y1="180.34" x2="259.08" y2="180.34" width="0.1524" layer="91"/>
+<label x="259.08" y="180.34" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="12V_GND" class="0">
@@ -2391,9 +2495,9 @@ Used as a test point connection for pogo pins or other debugging tools.
 <label x="134.62" y="187.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J5" gate="A" pin="6"/>
-<wire x1="292.1" y1="190.5" x2="299.72" y2="190.5" width="0.1524" layer="91"/>
-<label x="299.72" y="190.5" size="1.778" layer="95"/>
+<pinref part="J4" gate="G$1" pin="06"/>
+<wire x1="292.1" y1="198.12" x2="299.72" y2="198.12" width="0.1524" layer="91"/>
+<label x="299.72" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWMB1" class="0">
@@ -2403,9 +2507,9 @@ Used as a test point connection for pogo pins or other debugging tools.
 <label x="134.62" y="185.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J5" gate="A" pin="8"/>
-<wire x1="292.1" y1="187.96" x2="299.72" y2="187.96" width="0.1524" layer="91"/>
-<label x="299.72" y="187.96" size="1.778" layer="95"/>
+<pinref part="J4" gate="G$1" pin="08"/>
+<wire x1="292.1" y1="195.58" x2="299.72" y2="195.58" width="0.1524" layer="91"/>
+<label x="299.72" y="195.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWMB2" class="0">
@@ -2415,9 +2519,9 @@ Used as a test point connection for pogo pins or other debugging tools.
 <label x="134.62" y="182.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J5" gate="A" pin="10"/>
-<wire x1="292.1" y1="185.42" x2="299.72" y2="185.42" width="0.1524" layer="91"/>
-<label x="299.72" y="185.42" size="1.778" layer="95"/>
+<pinref part="J4" gate="G$1" pin="10"/>
+<wire x1="292.1" y1="193.04" x2="299.72" y2="193.04" width="0.1524" layer="91"/>
+<label x="299.72" y="193.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWMB3" class="0">
@@ -2427,9 +2531,9 @@ Used as a test point connection for pogo pins or other debugging tools.
 <label x="134.62" y="180.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J5" gate="A" pin="12"/>
-<wire x1="292.1" y1="182.88" x2="299.72" y2="182.88" width="0.1524" layer="91"/>
-<label x="299.72" y="182.88" size="1.778" layer="95"/>
+<pinref part="J4" gate="G$1" pin="12"/>
+<wire x1="292.1" y1="190.5" x2="299.72" y2="190.5" width="0.1524" layer="91"/>
+<label x="299.72" y="190.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWMC0" class="0">
@@ -2439,9 +2543,9 @@ Used as a test point connection for pogo pins or other debugging tools.
 <label x="182.88" y="190.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J5" gate="A" pin="14"/>
-<wire x1="292.1" y1="180.34" x2="299.72" y2="180.34" width="0.1524" layer="91"/>
-<label x="299.72" y="180.34" size="1.778" layer="95"/>
+<pinref part="J4" gate="G$1" pin="14"/>
+<wire x1="292.1" y1="187.96" x2="299.72" y2="187.96" width="0.1524" layer="91"/>
+<label x="299.72" y="187.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWMC1" class="0">
@@ -2451,9 +2555,9 @@ Used as a test point connection for pogo pins or other debugging tools.
 <label x="182.88" y="187.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J5" gate="A" pin="16"/>
-<wire x1="292.1" y1="177.8" x2="299.72" y2="177.8" width="0.1524" layer="91"/>
-<label x="299.72" y="177.8" size="1.778" layer="95"/>
+<pinref part="J4" gate="G$1" pin="16"/>
+<wire x1="292.1" y1="185.42" x2="299.72" y2="185.42" width="0.1524" layer="91"/>
+<label x="299.72" y="185.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWMC2" class="0">
@@ -2463,9 +2567,9 @@ Used as a test point connection for pogo pins or other debugging tools.
 <label x="182.88" y="185.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J5" gate="A" pin="18"/>
-<wire x1="292.1" y1="175.26" x2="299.72" y2="175.26" width="0.1524" layer="91"/>
-<label x="299.72" y="175.26" size="1.778" layer="95"/>
+<pinref part="J4" gate="G$1" pin="18"/>
+<wire x1="292.1" y1="182.88" x2="299.72" y2="182.88" width="0.1524" layer="91"/>
+<label x="299.72" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWMC3" class="0">
@@ -2475,9 +2579,9 @@ Used as a test point connection for pogo pins or other debugging tools.
 <label x="182.88" y="182.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J5" gate="A" pin="20"/>
-<wire x1="292.1" y1="172.72" x2="299.72" y2="172.72" width="0.1524" layer="91"/>
-<label x="299.72" y="172.72" size="1.778" layer="95"/>
+<pinref part="J4" gate="G$1" pin="20"/>
+<wire x1="292.1" y1="180.34" x2="299.72" y2="180.34" width="0.1524" layer="91"/>
+<label x="299.72" y="180.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="12V_L" class="0">
@@ -2572,19 +2676,19 @@ Used as a test point connection for pogo pins or other debugging tools.
 <label x="109.22" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J5" gate="A" pin="4"/>
-<wire x1="292.1" y1="193.04" x2="299.72" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="193.04" x2="299.72" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="J5" gate="A" pin="2"/>
-<wire x1="299.72" y1="195.58" x2="299.72" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="195.58" x2="299.72" y2="195.58" width="0.1524" layer="91"/>
-<junction x="299.72" y="195.58"/>
-<label x="299.72" y="203.2" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="J3" gate="A" pin="3"/>
 <wire x1="195.58" y1="88.9" x2="187.96" y2="88.9" width="0.1524" layer="91"/>
 <label x="187.96" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="04"/>
+<wire x1="292.1" y1="200.66" x2="299.72" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="200.66" x2="299.72" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="02"/>
+<wire x1="299.72" y1="203.2" x2="299.72" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="203.2" x2="299.72" y2="203.2" width="0.1524" layer="91"/>
+<junction x="299.72" y="203.2"/>
+<label x="299.72" y="205.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -2599,19 +2703,19 @@ Used as a test point connection for pogo pins or other debugging tools.
 <label x="325.12" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J5" gate="A" pin="3"/>
-<wire x1="261.62" y1="193.04" x2="254" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="254" y1="193.04" x2="254" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="J5" gate="A" pin="1"/>
-<wire x1="254" y1="195.58" x2="254" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="195.58" x2="254" y2="195.58" width="0.1524" layer="91"/>
-<junction x="254" y="195.58"/>
-<label x="254" y="203.2" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="J3" gate="A" pin="1"/>
 <wire x1="195.58" y1="91.44" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
 <label x="187.96" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="03"/>
+<wire x1="266.7" y1="200.66" x2="259.08" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="200.66" x2="259.08" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="01"/>
+<wire x1="259.08" y1="203.2" x2="259.08" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="203.2" x2="259.08" y2="203.2" width="0.1524" layer="91"/>
+<junction x="259.08" y="203.2"/>
+<label x="259.08" y="205.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CTRL" class="0">
@@ -2748,50 +2852,50 @@ Used as a test point connection for pogo pins or other debugging tools.
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="J5" gate="A" pin="5"/>
-<wire x1="261.62" y1="190.5" x2="254" y2="190.5" width="0.1524" layer="91"/>
-<label x="254" y="190.5" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="J3" gate="A" pin="14"/>
 <wire x1="226.06" y1="76.2" x2="233.68" y2="76.2" width="0.1524" layer="91"/>
 <label x="233.68" y="76.2" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="05"/>
+<wire x1="266.7" y1="198.12" x2="259.08" y2="198.12" width="0.1524" layer="91"/>
+<label x="259.08" y="198.12" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="MOSI" class="0">
-<segment>
-<pinref part="J5" gate="A" pin="7"/>
-<wire x1="261.62" y1="187.96" x2="254" y2="187.96" width="0.1524" layer="91"/>
-<label x="254" y="187.96" size="1.778" layer="95" rot="R180"/>
-</segment>
 <segment>
 <pinref part="J3" gate="A" pin="16"/>
 <wire x1="226.06" y1="73.66" x2="233.68" y2="73.66" width="0.1524" layer="91"/>
 <label x="233.68" y="73.66" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="07"/>
+<wire x1="266.7" y1="195.58" x2="259.08" y2="195.58" width="0.1524" layer="91"/>
+<label x="259.08" y="195.58" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="SCLK" class="0">
-<segment>
-<pinref part="J5" gate="A" pin="9"/>
-<wire x1="261.62" y1="185.42" x2="254" y2="185.42" width="0.1524" layer="91"/>
-<label x="254" y="185.42" size="1.778" layer="95" rot="R180"/>
-</segment>
 <segment>
 <pinref part="J3" gate="A" pin="18"/>
 <wire x1="226.06" y1="71.12" x2="233.68" y2="71.12" width="0.1524" layer="91"/>
 <label x="233.68" y="71.12" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="09"/>
+<wire x1="266.7" y1="193.04" x2="259.08" y2="193.04" width="0.1524" layer="91"/>
+<label x="259.08" y="193.04" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="CS" class="0">
-<segment>
-<pinref part="J5" gate="A" pin="11"/>
-<wire x1="261.62" y1="182.88" x2="254" y2="182.88" width="0.1524" layer="91"/>
-<label x="254" y="182.88" size="1.778" layer="95" rot="R180"/>
-</segment>
 <segment>
 <pinref part="J3" gate="A" pin="20"/>
 <wire x1="226.06" y1="68.58" x2="233.68" y2="68.58" width="0.1524" layer="91"/>
 <label x="233.68" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="11"/>
+<wire x1="266.7" y1="190.5" x2="259.08" y2="190.5" width="0.1524" layer="91"/>
+<label x="259.08" y="190.5" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
