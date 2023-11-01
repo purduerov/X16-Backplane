@@ -2651,16 +2651,6 @@ Used as a test point connection for pogo pins or other debugging tools.
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="7"/>
-<wire x1="50.8" y1="76.2" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="76.2" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="8"/>
-<wire x1="58.42" y1="73.66" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="73.66" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
-<junction x="58.42" y="73.66"/>
-<label x="58.42" y="66.04" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="J2" gate="G$1" pin="P06"/>
 <wire x1="312.42" y1="93.98" x2="320.04" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="93.98" x2="320.04" y2="91.44" width="0.1524" layer="91"/>
@@ -2669,11 +2659,6 @@ Used as a test point connection for pogo pins or other debugging tools.
 <wire x1="320.04" y1="93.98" x2="325.12" y2="93.98" width="0.1524" layer="91"/>
 <junction x="320.04" y="93.98"/>
 <label x="325.12" y="93.98" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="GND"/>
-<wire x1="109.22" y1="38.1" x2="109.22" y2="30.48" width="0.1524" layer="91"/>
-<label x="109.22" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J3" gate="A" pin="3"/>
@@ -2904,7 +2889,10 @@ Used as a test point connection for pogo pins or other debugging tools.
 <plain>
 <text x="40.64" y="226.06" size="1.778" layer="91">12V LED CHECK</text>
 <text x="88.9" y="226.06" size="1.778" layer="91">5V LED CHECK</text>
-<text x="63.5" y="139.7" size="1.778" layer="91">12V CAPACITORS</text>
+<text x="66.04" y="160.02" size="1.778" layer="91">12V CAPACITORS</text>
+<text x="50.8" y="124.46" size="1.778" layer="91">+</text>
+<text x="73.66" y="124.46" size="1.778" layer="91">+</text>
+<text x="101.6" y="124.46" size="1.778" layer="91">+</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
@@ -2930,20 +2918,20 @@ Used as a test point connection for pogo pins or other debugging tools.
 <attribute name="VALUE" x="92.456" y="200.66" size="1.778" layer="96" font="vector" rot="MR180" align="top-center"/>
 <attribute name="PROD_ID" x="90.17" y="198.12" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="C1" gate="A" x="71.12" y="129.54" smashed="yes">
-<attribute name="VALUE" x="65.9638" y="124.0028" size="3.4798" layer="96" ratio="10" rot="SR0"/>
-<attribute name="NAME" x="67.0306" y="131.6228" size="3.4798" layer="95" ratio="10" rot="SR0"/>
-<attribute name="C1" x="78.74" y="132.08" size="1.778" layer="96"/>
+<instance part="C1" gate="A" x="53.34" y="127" smashed="yes" rot="R270">
+<attribute name="VALUE" x="30.0228" y="111.8362" size="3.4798" layer="96" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="57.9628" y="123.4694" size="3.4798" layer="95" ratio="10" rot="SR0"/>
+<attribute name="C1" x="55.88" y="119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="A" x="71.12" y="106.68" smashed="yes">
-<attribute name="VALUE" x="65.9638" y="101.1428" size="3.4798" layer="96" ratio="10" rot="SR0"/>
-<attribute name="NAME" x="67.0306" y="108.7628" size="3.4798" layer="95" ratio="10" rot="SR0"/>
-<attribute name="C2" x="78.74" y="109.22" size="1.778" layer="96"/>
+<instance part="C2" gate="A" x="76.2" y="127" smashed="yes" rot="R270">
+<attribute name="VALUE" x="75.7428" y="111.8362" size="3.4798" layer="96" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="80.8228" y="123.4694" size="3.4798" layer="95" ratio="10" rot="SR0"/>
+<attribute name="C2" x="78.74" y="119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="A" x="71.12" y="83.82" smashed="yes">
-<attribute name="VALUE" x="65.9638" y="78.2828" size="3.4798" layer="96" ratio="10" rot="SR0"/>
-<attribute name="NAME" x="67.0306" y="85.9028" size="3.4798" layer="95" ratio="10" rot="SR0"/>
-<attribute name="C3" x="78.74" y="86.36" size="1.778" layer="96"/>
+<instance part="C3" gate="A" x="104.14" y="127" smashed="yes" rot="R270">
+<attribute name="VALUE" x="116.3828" y="119.4562" size="3.4798" layer="96" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="106.2228" y="126.0094" size="3.4798" layer="95" ratio="10" rot="SR0"/>
+<attribute name="C3" x="106.68" y="119.38" size="1.778" layer="96"/>
 </instance>
 <instance part="TP1" gate="G$1" x="312.42" y="226.06" smashed="yes">
 <attribute name="NAME" x="309.88" y="228.6" size="1.778" layer="95" font="vector"/>
@@ -3008,6 +2996,19 @@ Used as a test point connection for pogo pins or other debugging tools.
 <wire x1="312.42" y1="180.34" x2="304.8" y2="180.34" width="0.1524" layer="91"/>
 <label x="304.8" y="180.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="C1" gate="A" pin="2"/>
+<wire x1="53.34" y1="119.38" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="C3" gate="A" pin="2"/>
+<wire x1="53.34" y1="101.6" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="101.6" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="101.6" x2="104.14" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="C2" gate="A" pin="2"/>
+<wire x1="76.2" y1="119.38" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
+<junction x="76.2" y="101.6"/>
+<wire x1="76.2" y1="101.6" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
+<label x="76.2" y="93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="12V" class="0">
 <segment>
@@ -3017,22 +3018,22 @@ Used as a test point connection for pogo pins or other debugging tools.
 <label x="55.88" y="220.98" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C1" gate="A" pin="2"/>
-<wire x1="78.74" y1="129.54" x2="119.38" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="C3" gate="A" pin="2"/>
-<wire x1="119.38" y1="129.54" x2="119.38" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="106.68" x2="119.38" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="83.82" x2="78.74" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="C2" gate="A" pin="2"/>
-<wire x1="78.74" y1="106.68" x2="119.38" y2="106.68" width="0.1524" layer="91"/>
-<junction x="119.38" y="106.68"/>
-<wire x1="119.38" y1="106.68" x2="137.16" y2="106.68" width="0.1524" layer="91"/>
-<label x="137.16" y="106.68" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="TP1" gate="G$1" pin="1"/>
 <wire x1="312.42" y1="226.06" x2="304.8" y2="226.06" width="0.1524" layer="91"/>
 <label x="304.8" y="226.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C1" gate="A" pin="1"/>
+<wire x1="53.34" y1="127" x2="53.34" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="C3" gate="A" pin="1"/>
+<wire x1="53.34" y1="139.7" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="139.7" x2="104.14" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="139.7" x2="104.14" y2="127" width="0.1524" layer="91"/>
+<pinref part="C2" gate="A" pin="1"/>
+<wire x1="76.2" y1="127" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
+<junction x="76.2" y="139.7"/>
+<wire x1="76.2" y1="139.7" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
+<label x="76.2" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -3047,21 +3048,6 @@ Used as a test point connection for pogo pins or other debugging tools.
 <pinref part="D2" gate="A" pin="K"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="210.82" x2="93.98" y2="205.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="12V_GND" class="0">
-<segment>
-<pinref part="C1" gate="A" pin="1"/>
-<wire x1="71.12" y1="129.54" x2="48.26" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="C3" gate="A" pin="1"/>
-<wire x1="48.26" y1="129.54" x2="48.26" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="106.68" x2="48.26" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="83.82" x2="71.12" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="C2" gate="A" pin="1"/>
-<wire x1="71.12" y1="106.68" x2="48.26" y2="106.68" width="0.1524" layer="91"/>
-<junction x="48.26" y="106.68"/>
-<wire x1="48.26" y1="106.68" x2="35.56" y2="106.68" width="0.1524" layer="91"/>
-<label x="35.56" y="106.68" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="MISO" class="0">
