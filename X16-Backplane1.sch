@@ -3611,6 +3611,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="266.7" y1="193.04" x2="259.08" y2="193.04" width="0.1524" layer="91"/>
 <label x="259.08" y="193.04" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="J3" gate="A" pin="9"/>
+<wire x1="200.66" y1="71.12" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
+<label x="190.5" y="71.12" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CS" class="0">
 <segment>
@@ -3689,13 +3694,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U2" gate="G$1" pin="OUT7"/>
 <wire x1="124.46" y1="48.26" x2="134.62" y2="48.26" width="0.1524" layer="91"/>
 <label x="134.62" y="48.26" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="CLK" class="0">
-<segment>
-<pinref part="J3" gate="A" pin="9"/>
-<wire x1="200.66" y1="71.12" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
-<label x="190.5" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO8" class="0">
