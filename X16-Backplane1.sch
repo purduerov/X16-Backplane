@@ -4024,20 +4024,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="320.04" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PWMC0" class="0">
-<segment>
-<pinref part="J12" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="215.9" x2="195.58" y2="215.9" width="0.1524" layer="91"/>
-<label x="195.58" y="215.9" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PWMC1" class="0">
-<segment>
-<pinref part="J13" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="190.5" x2="195.58" y2="190.5" width="0.1524" layer="91"/>
-<label x="195.58" y="190.5" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="12V_GND" class="0">
 <segment>
 <pinref part="C1" gate="A" pin="2"/>
@@ -4072,6 +4058,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="TP2" gate="G$1" pin="TP"/>
 <wire x1="308.102" y1="198.12" x2="325.12" y2="198.12" width="0.1524" layer="91"/>
 <label x="325.12" y="198.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWMC1" class="0">
+<segment>
+<pinref part="J12" gate="G$1" pin="2"/>
+<wire x1="203.2" y1="215.9" x2="195.58" y2="215.9" width="0.1524" layer="91"/>
+<label x="195.58" y="215.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWMC0" class="0">
+<segment>
+<pinref part="J13" gate="G$1" pin="2"/>
+<wire x1="203.2" y1="190.5" x2="195.58" y2="190.5" width="0.1524" layer="91"/>
+<label x="195.58" y="190.5" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
