@@ -4479,7 +4479,7 @@ Source: www.kingbright.com</description>
 <label x="58.42" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GNDRAT" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="P06"/>
 <wire x1="312.42" y1="93.98" x2="320.04" y2="93.98" width="0.1524" layer="91"/>
@@ -4907,7 +4907,7 @@ Source: www.kingbright.com</description>
 <label x="325.12" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GNDRAT" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="195.58" x2="93.98" y2="193.04" width="0.1524" layer="91"/>

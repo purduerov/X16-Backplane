@@ -7350,7 +7350,7 @@ maxErrors = 50
 <wire x1="108.331" y1="93.1926" x2="108.331" y2="87.565" width="0.508" layer="1"/>
 <wire x1="107.8814" y1="93.6422" x2="108.331" y2="93.1926" width="0.508" layer="1"/>
 </signal>
-<signal name="GND">
+<signal name="GNDRAT">
 <contactref element="J2" pad="P06_9"/>
 <contactref element="J2" pad="P06_3"/>
 <contactref element="J2" pad="P06_5"/>
@@ -7414,8 +7414,8 @@ maxErrors = 50
 <wire x1="50.2548" y1="76.708" x2="48.3362" y2="76.708" width="0.508" layer="1"/>
 <contactref element="J2" pad="22"/>
 <polygon width="0.2032" layer="1" thermals="no">
-<vertex x="3.81" y="68.2752"/>
-<vertex x="15.494" y="68.2752"/>
+<vertex x="3.81" y="67.9704"/>
+<vertex x="15.494" y="67.9704"/>
 <vertex x="15.494" y="77.6224"/>
 <vertex x="3.81" y="77.6224"/>
 </polygon>
@@ -7531,6 +7531,12 @@ maxErrors = 50
 <via x="15.24" y="45.72" extent="1-16" drill="0.35"/>
 <via x="11.43" y="45.72" extent="1-16" drill="0.35"/>
 <via x="11.43" y="49.53" extent="1-16" drill="0.35"/>
+<polygon width="0.2032" layer="16" thermals="no">
+<vertex x="15.494" y="67.5386"/>
+<vertex x="3.81" y="67.5386"/>
+<vertex x="3.81" y="77.6224"/>
+<vertex x="15.494" y="77.6224"/>
+</polygon>
 </signal>
 <signal name="5V">
 <contactref element="J2" pad="P08_7"/>
